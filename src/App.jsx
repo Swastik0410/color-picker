@@ -5,6 +5,7 @@ const App = () => {
   const [color, setcolor] = useState("#fff")
    document.body.style.backgroundColor=color;
   function buttonclicked(e){
+    e.preventDefault;
     setcolor(e.target.value)
     
   }
